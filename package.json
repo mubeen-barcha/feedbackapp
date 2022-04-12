@@ -12,7 +12,7 @@
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "0.9.5",
+    "react-scripts": "^5.0.0",
     "uuid": "^8.3.2"
   },
   "scripts": {
@@ -21,5 +21,18 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json --port 5000",
-    "dev": "concurrently \"npm run server\" \"npm start\""  }
+    "dev": "concurrently \"npm run server\" \"npm start\""
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
